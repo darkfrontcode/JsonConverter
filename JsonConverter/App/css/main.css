@@ -1,0 +1,258 @@
+/* ==========================================================================
+	-- Parent
+========================================================================== */
+
+html, body
+{
+	height: 100%;
+}
+
+#app
+{
+	height: 100%;
+	background: #2962ff;
+}
+
+/* ==========================================================================
+	-- helpers
+========================================================================== */
+
+.row
+{
+	margin: 0;
+}
+
+.grow
+{
+	display: flex;
+	flex-grow: 1;
+}
+
+.shrink
+{
+	display: flex;
+	flex-shrink: 0;
+}
+
+.column
+{
+	display: flex;
+	flex-direction: column;
+}
+
+/* ==========================================================================
+	-- Buttons
+========================================================================== */
+
+.btn-green
+{
+	transition: background-color .25s;
+	font-family: Open Sans,sans-serif;
+	box-sizing: border-box;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 6px;
+	background-color: #26a69a;
+	padding: 13px 20px;
+	margin: 0;
+	border: 0;
+}
+
+.btn-green:hover:not(:disabled)
+{
+	background-color: #80cbc4;
+}
+
+.btn-green:disabled
+{
+	opacity: .5
+}
+
+.btn-red
+{
+	transition: background-color .25s;
+	font-family: Open Sans,sans-serif;
+	box-sizing: border-box;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 6px;
+	background-color: #b65a5a;
+	padding: 13px 20px;
+	margin: 0;
+	border: 0;
+}
+
+.btn-red:hover
+{
+	background: #d37878;
+}
+
+/* ==========================================================================
+	-- Header Componet
+========================================================================== */
+
+header
+{
+	box-sizing: border-box;
+	background-color: white;
+	height: 88px;
+	padding: 0 40px;
+}
+
+header h2
+{
+	font-family: Lobster,cursive;
+	font-size: 28px;
+	color: #26a69a;
+}
+
+/* ==========================================================================
+	-- List Componet
+========================================================================== */
+
+list
+{
+	display: flex;
+	flex-grow: 1;
+}
+
+#no-contacts
+{
+	box-sizing: border-box;
+	border-radius: 3px;
+	border: 2px solid #7ac0f8;
+	padding: 80px 150px;
+	font-family: Lobster,cursive;
+	font-size: 30px;
+	color: white;
+}
+
+/* ==========================================================================
+	-- Card Component
+========================================================================== */
+
+card
+{
+	box-sizing: border-box;
+	border-radius: 3px;
+	border: 2px solid #7ac0f8;
+	padding: 40px;
+	width: 25%;
+	height: 450px;
+}
+
+card h3
+{
+	font-family: Lobster,cursive;
+	font-size: 24px;
+	color: white;
+	margin: 0 0 40px 0;	
+}
+
+card .phone,
+card .email,
+card .message
+{
+	font-family: Lobster,cursive;
+	font-size: 16px;
+	color: #7ac0f8;
+}
+
+card .phone
+{
+	margin-bottom: 10px;
+}
+
+card .email
+{
+	margin-bottom: 40px;
+}
+
+card .subject
+{
+	font-family: Lobster,cursive;
+	font-size: 16px;
+	color: white;
+	margin-bottom: 40px;
+}
+
+/* ==========================================================================
+	-- Add Component
+========================================================================== */
+
+add
+{
+	display: flex;
+	flex-grow: 1;
+}
+
+#add-form
+{
+	box-sizing: border-box;
+	border-radius: 3px;
+	border: 2px solid #7ac0f8;
+	padding: 40px;
+	max-width: 25%;
+	min-height: 450px;
+}
+
+#add-form .button-wrapper
+{
+	margin-top: 40px;
+}
+
+#add-form h3
+{
+	font-family: Lobster,cursive;
+	font-size: 24px;
+	color: white;
+	margin: 0 0 40px 0;	
+}
+
+#add-form input[type=text],
+#add-form textarea
+{
+	font-family: Lobster,cursive;
+	font-size: 16px;
+	color: white;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #7ac0f8;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+}
+
+#add-form textarea
+{
+	height: 140px;
+	resize: none;
+}
+
+#add-form input[type=text]:focus,
+#add-form textarea:focus
+{
+	outline: none;
+}
+
+::-webkit-input-placeholder
+{
+	color: white;
+}
+::-moz-placeholder
+{
+	color: white;
+}
+:-ms-input-placeholder
+{
+	color: white;
+}
+:-moz-placeholder
+{
+	color: white;
+}
