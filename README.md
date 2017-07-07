@@ -9,7 +9,7 @@ The main idea here is to make a simple app that dont demands module bundler like
 
 > Change the value 'PATH_TO_FILE' of key 'path' in `appSettings` on Web.config file to set the place where json file will be saved.
 
-```C#
+```javascript
 	<appSettings>
 		<add key="path" value="PATH_TO_FILE"/> // Change here
 	</appSettings>
