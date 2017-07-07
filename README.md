@@ -17,6 +17,6 @@ The main idea here is to make a simple app that dont demands module bundler like
 
 > Link to [Web.config](https://github.com/darkfrontcode/JsonConverter/blob/master/JsonConverter/Web.config)
 
-> Build and run the solution.
+Build and run the solution.
 
 
