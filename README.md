@@ -21,6 +21,6 @@ Link to [Web.config](https://github.com/darkfrontcode/JsonConverter/blob/master/
 
 ### Information
 
-Html, css and javascript files are in App_Public folder right here => [Link](https://github.com/darkfrontcode/JsonConverter/tree/master/JsonConverter/App_Public)
+Html, css and javascript files are in [App_Public](https://github.com/darkfrontcode/JsonConverter/tree/master/JsonConverter/App_Public) folder.
 
 
