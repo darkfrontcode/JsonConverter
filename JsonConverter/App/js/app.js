@@ -99,7 +99,7 @@ var headerComponent = {
 	},
 	template: `
 		<div class="col-xs-6">
-			<h2>ContactList</h2>
+			<h2>PeopleSoft</h2>
 		</div>
 		<div class="col-xs-6 end-xs">
 			<button ui-sref="add" class="btn-green">Add Contact</button>
