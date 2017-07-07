@@ -190,6 +190,12 @@ add
 	flex-grow: 1;
 }
 
+#add-form-wrapper
+{
+	overflow-y: auto;
+	flex-wrap: nowrap;
+}
+
 #add-form
 {
 	box-sizing: border-box;

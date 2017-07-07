@@ -72,7 +72,7 @@ var addComponent = {
 
 	},
 	template: `
-		<div class="row grow center-xs middle-xs">
+		<div id="add-form-wrapper" class="row grow center-xs middle-xs">
 			<form id="add-form" class="row col-xs-6" name="$ctrl.contactForm" novalidate>
 				<input ng-model="$ctrl.contact.name" type="text" placeholder="Name"  ng-required="true"/>
 				<input ng-model="$ctrl.contact.email" type="text" placeholder="Email"  ng-required="true"/>
