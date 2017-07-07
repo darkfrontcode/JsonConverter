@@ -40,3 +40,6 @@ c:\users\ueslei_de_souza\documents\visual studio 2017\Projects\JsonConverter\Jso
 c:\users\ueslei_de_souza\documents\visual studio 2017\Projects\JsonConverter\JsonConverter\bin\System.Web.Http.WebHost.xml
 c:\users\ueslei_de_souza\documents\visual studio 2017\Projects\JsonConverter\JsonConverter\obj\Debug\JsonConverter.dll
 c:\users\ueslei_de_souza\documents\visual studio 2017\Projects\JsonConverter\JsonConverter\obj\Debug\JsonConverter.pdb
+C:\Users\Ueslei_de_Souza\Documents\visual studio 2017\Projects\JsonConverter\JsonConverter\bin\System.Web.Cors.dll
+C:\Users\Ueslei_de_Souza\Documents\visual studio 2017\Projects\JsonConverter\JsonConverter\bin\System.Web.Http.Cors.dll
+C:\Users\Ueslei_de_Souza\Documents\visual studio 2017\Projects\JsonConverter\JsonConverter\bin\System.Web.Http.Cors.xml

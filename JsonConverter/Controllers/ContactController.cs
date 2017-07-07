@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace JsonConverter.Controllers
 {
@@ -31,23 +32,31 @@ namespace JsonConverter.Controllers
 			catch(Exception ex)
 			{ 
 				return BadRequest(ex.Message);
-				//return BadRequest("Bad things happens with a good developers");
 			}
 		}
 		#endregion
 
-		#region Get/Params
-		//public IHttpActionResult Get(string name)
-		//{
-		//	IList<Contact> contacts = _monkey.Read();
-		//	Contact contact = contacts.FirstOrDefault((item) => item.Name == name);
+		#region Delete
+		[Route("api/contact/{name}")]
+		public IHttpActionResult Delete(string name)
+		{
+			try
+			{ 
+				List<Contact> contacts = _monkey.Read();
 
-		//	if (contact == null)
-		//	{
-		//		return NotFound();
-		//	}
-		//	return Ok(contact);
-		//}
+				var firstMatch = contacts.First(item => item.Name == name);
+				contacts.Remove(firstMatch);
+
+				_monkey.WriteAll(contacts);
+
+				return Ok();
+			}
+			catch(Exception ex)
+			{ 
+				return BadRequest(ex.Message);
+			}
+
+		}
 		#endregion
 
 		#region Post
@@ -61,7 +70,6 @@ namespace JsonConverter.Controllers
 			catch(Exception ex)
 			{ 
 				return BadRequest(ex.Message);
-				//return BadRequest("Bad things happens with a good developers");
 			}
 		}
 		#endregion

@@ -32,5 +32,11 @@ namespace JsonConverter.Helpers
 			json = JsonConvert.SerializeObject(contacts, Formatting.Indented);
 			System.IO.File.WriteAllText(path, json);
 		}
+
+		public void WriteAll(List<Contact> contacts)
+		{
+			json = JsonConvert.SerializeObject(contacts, Formatting.Indented);
+			System.IO.File.WriteAllText(path, json);
+		}
     }
 }
