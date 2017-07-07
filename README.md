@@ -7,14 +7,16 @@ The main idea here is to make a simple app that dont demands module bundler like
 
 ### Instructions
 
-> Change the value 'PATH_TO_FILE' of key 'path' in <appsettings> on Web.config file to set the place where json.file will be saved.
+> Change the value 'PATH_TO_FILE' of key 'path' in `appSettings` on Web.config file to set the place where json file will be saved.
 
-```javascript
+```C#
 	<appSettings>
 		<add key="path" value="PATH_TO_FILE"/> // Change here
 	</appSettings>
 ```
 
-[Web.config](https://github.com/darkfrontcode/JsonConverter/blob/master/JsonConverter/Web.config)
+> Link to [Web.config](https://github.com/darkfrontcode/JsonConverter/blob/master/JsonConverter/Web.config)
+
+> Build and run the solution.
 
 
