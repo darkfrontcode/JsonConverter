@@ -15,12 +15,12 @@ The main idea here is to make a simple app that dont demands module bundler like
 	</appSettings>
 ```
 
-> Link to [Web.config](https://github.com/darkfrontcode/JsonConverter/blob/master/JsonConverter/Web.config)
+Link to [Web.config](https://github.com/darkfrontcode/JsonConverter/blob/master/JsonConverter/Web.config)
 
-Build and run the solution.
+> Build and run the solution.
 
 ### Information
 
-Html, css and javascript files are in App_Public folder right here => [Link]
+Html, css and javascript files are in App_Public folder right here => [Link](https://github.com/darkfrontcode/JsonConverter/tree/master/JsonConverter/App_Public)
 
 
