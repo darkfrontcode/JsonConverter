@@ -19,4 +19,8 @@ The main idea here is to make a simple app that dont demands module bundler like
 
 Build and run the solution.
 
+### Information
+
+Html, css and javascript files are in App_Public folder right here => [Link]
+
 
